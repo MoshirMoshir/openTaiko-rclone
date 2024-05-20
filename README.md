@@ -9,33 +9,33 @@ The first thing you'll need to do is get [rclone](https://rclone.org/). Go to th
 In order to be able to run rclone and the sync/check files, you'll need to setup an environmental variable so your computer can recognize how to call the rclone command.
 
 1. Find the folder where you downloaded rclone and copy the address bar, we'll need this later
-![rclone_folder](Setup/Images/rclone_folder.png)
+![rclone_folder](Images/rclone_folder.png)
 > It should be something like this: ```C:\Users\Moshir\Downloads\rclone```
 
 2. Search for ```environment variables``` in your windows search bar and open the result
-![search](Setup/Images/search.png)
+![search](Images/search.png)
 
 3. Select ```Environment Variables...```, then ```Path``` and ```Edit``` then ```New``` and paste the rclone folder path that you copied
-![environment_variables](Setup/Images/environment_variables.png)
+![environment_variables](Images/environment_variables.png)
 
 4. You can now press ```Ok``` on all those windows and rclone can now be used in cmd or powershell!
-![rclone_powershell](Setup/Images/rclone_powershell.png)
+![rclone_powershell](Images/rclone_powershell.png)
 
 ## Setup rclone
 ### Copy rclone.conf to rclone config path
 You'll need to copy my provided rclone.conf file into the correct location so that the remotes can be automatically setup
 
 1. Press ```⊞ Win + r``` and type in ```%appdata%``` <br>
-![appdata](Setup/Images/appdata.png)
+![appdata](Images/appdata.png)
 
 3. Ensure you are in ```../AppData/Roaming``` and find the rclone folder (if it is not there, then create a folder named ```rclone```)
-![rclone_config_folder](Setup/Images/rclone_config_folder.png)
+![rclone_config_folder](Images/rclone_config_folder.png)
 
 5. Copy the provided rclone.conf into that folder, replace the one there if it already has one
-![rclone_config_file](Setup/Images/rclone_config_file.png)
+![rclone_config_file](Images/rclone_config_file.png)
 
 7. If done correctly, if you type in ```rclone config``` into powershell/cmd, it should list all the remotes 
-![remotes](Setup/Images/remotes.png)
+![remotes](Images/remotes.png)
 
 ### Reauthenticate rclone Remotes
 I have compiled the reconnect commands into one .bat file to reauthenticate all the remotes, but you will still have to manually link your google account and allow each one
