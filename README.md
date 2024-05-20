@@ -47,7 +47,7 @@ I have compiled the reconnect commands into one .bat file to reauthenticate all 
 3. Repeat step 2 until no more tabs open (It will do this 28 times total)
 
 ## Sync all the songs!
-Now that we have rclone setup and all the remotes reauthenticated, all you have to do is go into the ```Songs``` and run* ```SyncAll.bat```. This will open a bunch of cmd windows that will run each sync.bat in my provided folders and they will download all the songs from each Charter's google drive into their respective folders.
+Now that we have rclone setup and all the remotes reauthenticated, all you have to do is go into my provided ```Songs``` folder and run* ```SyncAll.bat```. This will open a bunch of cmd windows that will run each sync.bat in each Charter's folder and  will download all the songs from google drive into the respective folders.
 Once all the cmd windows close, all the songs are downloaded and ready to be played!
 
-*I recommend copying the entire ```Songs``` Folder provided and pasting it in your OpenTaiko install **FIRST**(the provided folders in ```Songs``` and the ```SyncAll.bat``` should be in your ```Songs``` folder for OpenTaiko)
+*I recommend copying the entire ```Songs``` Folder provided and pasting it in your OpenTaiko install **FIRST** before running SyncAll.bat (the provided folders in ```Songs``` and the ```SyncAll.bat``` should be in your ```Songs``` folder for OpenTaiko)
