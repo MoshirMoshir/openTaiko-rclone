@@ -1,0 +1,1 @@
+rclone sync -P --exclude *.ini --exclude *.rating --exclude *.bat --exclude *.json --exclude *.optkr sadkay:/ .
