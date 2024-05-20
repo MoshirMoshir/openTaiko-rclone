@@ -5,7 +5,7 @@ You can also view the original video guide to setup rclone by Meowgister [here](
 
 ## Getting Started
 ### Download rclone
-The first thing you'll need to do is get [rclone](https://rclone.org/). Go to the rclone's [Downloads Page](https://rclone.org/downloads/) and download the correct version for your computer (it should probably be the top left one ```Intel/AMD - 64 Bit | Windows```).
+The first thing you'll need to do is get [rclone](https://rclone.org/). Go to the rclone's [Downloads Page](https://rclone.org/downloads/) and download the correct version for your computer (it should probably be the top left one: ```Intel/AMD - 64 Bit | Windows```).
 
 ### Setup path for rclone
 In order to be able to run rclone and the sync/check files, you'll need to setup an environmental variable so your computer can recognize how to call the rclone command.
