@@ -1,5 +1,5 @@
 # openTaiko rclone
-This is an easy step-by-step written guide to help get all the awesome custom charts by the community as well as to setup rclone for easy syncing of those charts!
+This is an easy step-by-step written guide to setup up rclone as well as to configure it with all the drives/remotes for all the awesome charters in the community! 
 
 You can also view the original video guide to setup rclone by Meowgister [here](https://www.youtube.com/watch?v=bMj7AFF_ShI)
 
